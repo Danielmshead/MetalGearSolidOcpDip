@@ -22,7 +22,7 @@ namespace MetalGearSolidOcpDip
             double desconto = this.tabela.DescontoPara(produto.Valor);
             double frete = this.entrega.Para(produto.Cidade);
 
-            return produto.Valor *( 1 - desconto ) + frete;
+            return produto.Valor * ( 1 - desconto ) + frete;
         }
     }
 }

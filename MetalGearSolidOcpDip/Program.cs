@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Compra compra = new Compra(0, "londrina");
+            Compra compra = new Compra(2000, "londrina");
             CalculaPreco calcula = new CalculaPreco(new TabelaPrecoPadrao(), new Transportadora());
 
             double resultado = calcula.Calcula(compra);

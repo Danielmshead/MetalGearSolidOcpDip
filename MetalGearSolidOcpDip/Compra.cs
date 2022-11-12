@@ -8,13 +8,12 @@ namespace MetalGearSolidOcpDip
 {
     public class Compra
     {
-        public Compra(double valor, string cidade)
-        {
-            valor = Valor;
-            cidade = Cidade;
-        }
-
         public string Cidade { get; set; }
         public double Valor { get; set; }
+        public Compra(double valor, string cidade)
+        {
+            this.Valor = valor;
+            this.Cidade = cidade;
+        }
     }
 }
